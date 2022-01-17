@@ -23,7 +23,7 @@ while(True):
 
 
     screen.blit(bg,(0,0))   
+    player1.update()
+
     pygame.draw.rect(screen,(255,0,0),player1.rect)
-    player1.rect.x+=5
-    player1.rect.y+=5
     pygame.display.update()
