@@ -1,6 +1,6 @@
 import pygame
 from player import Player
-from globalvariables import *
+from globalVars import *
 
 
 

@@ -2,7 +2,7 @@ from tkinter import LEFT
 from pygame import K_DOWN, K_LEFT, K_RIGHT, K_UP, Rect
 import pygame
 #importing global variables
-from globalvariables import *
+from globalVars import *
 
 
 class Player:
