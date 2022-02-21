@@ -28,12 +28,17 @@ while(True):
        
 
 
+    point = pygame.mouse.get_pos()
+    collide = player1.rect.collidepoint(point)
+    print(collide)
+    color = (255,56,100) if collide else (255,255,255)
+    
     #loading screen with bg image
     screen.blit(bg,(0,0)) 
    
 
     player1.update()
-    pygame.draw.rect(screen,(255,0,0),player1.rect)  
+    pygame.draw.rect(screen,color,player1.rect)  
 
     
     fps.tick(60)
